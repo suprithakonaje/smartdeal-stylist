@@ -1,1 +1,1 @@
-# Product Recommender
+# Smart Deal Stylist

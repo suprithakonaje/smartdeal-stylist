@@ -1,6 +1,6 @@
 # SmartDeal Stylist 🛍️✨
 
-A personal AI stylist and deal alert agent - because finding great deals on women's 
+A personal AI stylist and deal alert agent because finding great deals on women's 
 apparel from trusted brands should not require hours of googling.
 
 ## The Problem
@@ -23,7 +23,7 @@ So I built it.
 - Ask natural language questions like "I want a dress similar to this" and get 
   recommendations from trusted sites
 - RAG based recommendation system built on FAISS vector search
-- Learns your style over time - body type, preferred fits, jewellery style, 
+- Learns your style over time like body type, preferred fits, jewellery style, 
   past searches
 
 ### Phase 3 - Smart Alerts (planned)
@@ -34,7 +34,7 @@ So I built it.
 ### Phase 4 - Autonomous Shopping Agent (future)
 - PayPal integration for autonomous purchasing
 - Smart return policy checker before placing any order
-- Purchase categories - "buy now", "buy if price drops by X%"
+- Purchase categories: "buy now", "buy if price drops by X%"
 - Never buy something you no longer need
 
 ## Tech Stack
@@ -46,13 +46,13 @@ So I built it.
 - Jupyter Notebook - development and experimentation
 
 ## Project Status
-🟡 Active development - currently building the deal scraping and catalogue 
+🟡 Active development: currently building the deal scraping and catalogue 
 aggregation layer
 
 ## Why I Built This
 I moved to the US recently and was immediately frustrated by how hard it was to 
 discover deals on the brands I love. Slickdeals exists but is not built for women's 
-fashion. So I started building my own solution - one that actually knows my style, 
+fashion. So I started building my own solution, one that actually knows my style, 
 monitors what I care about, and does the work for me.
 
 ## Roadmap

@@ -31,6 +31,29 @@ So I built it.
 - Alerts when a previously unavailable item matching your search appears
 - Track items across sessions so nothing slips through
 
+#### Price Adjustment Tracker (future consideration)
+ 
+Many retailers offer price adjustment policies. If a price drops within a set number of days after purchase, you can claim a refund of the difference. This feature would automate that entire process.
+ 
+**How it would work:**
+ 
+1. User clicks a deal and is redirected to the retailer via a tracked link
+2. After purchasing, user logs the order in the app with one tap (store, item, price paid, date)
+3. A background watcher re-scrapes that specific product URL every 12–24 hours
+4. If the price drops and the purchase is still within the store's adjustment window, the user gets an alert
+5. The alert includes the savings amount and exactly how to claim like chatbot link, email address, or phone number depending on the store
+
+**Store policies tracked:**
+ 
+| Store | Adjustment Window | How to Claim |
+|-------|------------------|--------------|
+| Macy's | 10 days | Live chat or 1-800 number |
+| Zara | 14 days | Online CS or in-store |
+| Nordstrom | 14 days | Chat, phone, or in-store |
+| H&M | No formal policy | Not eligible |
+ 
+> Inspired by a real experience: Bought some shoe at Macy's for a price, spotted two consecutive price drops within the adjustment window, and claimed refunds both times through their CS chat. This feature would catch that automatically.
+
 ### Phase 4 - Autonomous Shopping Agent (future)
 - PayPal integration for autonomous purchasing
 - Smart return policy checker before placing any order
@@ -46,7 +69,7 @@ So I built it.
 - Jupyter Notebook - development and experimentation
 
 ## Project Status
-🟡 Active development: currently building the deal scraping and catalogue 
+Active development: currently building the deal scraping and catalogue 
 aggregation layer
 
 ## Why I Built This
